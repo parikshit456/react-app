@@ -44,7 +44,7 @@ function App() {
       {/* <h1>{likeCounter}</h1> */}
       {/* <button onClick={likeHandler}>Like</button> */}
       <h1>Emoji Interpreter 😎</h1>
-      <input className="input" onChange={onChangeHandler} ></input> {"\n"}
+      <input className="input" onChange={onChangeHandler} ></input> 
       {emojiList.map((emoji)=> {
         return (
           <span key={emoji} style={{fontSize:"4rem",cursor:"pointer"}} onClick={()=>emojiDetector(emoji)}>
